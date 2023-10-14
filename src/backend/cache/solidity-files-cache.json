@@ -1,0 +1,77 @@
+{
+  "_format": "hh-sol-cache-2",
+  "files": {
+    "/Users/sujaykumar/Desktop/Projects/blockchain_voting_system/src/backend/contracts/Leader.sol": {
+      "lastModificationDate": 1694526564508,
+      "contentHash": "bbe6463487bc56b3418010bb6591a901",
+      "sourceName": "src/backend/contracts/Leader.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.17"
+      ],
+      "artifacts": [
+        "Leader"
+      ]
+    },
+    "/Users/sujaykumar/Desktop/Projects/blockchain_voting_system/src/backend/contracts/Voter.sol": {
+      "lastModificationDate": 1694526564509,
+      "contentHash": "6f06e6fd2015f014e52b4093e432a602",
+      "sourceName": "src/backend/contracts/Voter.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./Leader.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.17"
+      ],
+      "artifacts": [
+        "Voter"
+      ]
+    }
+  }
+}
